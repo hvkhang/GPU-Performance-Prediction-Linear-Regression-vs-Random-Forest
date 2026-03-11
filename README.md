@@ -26,10 +26,11 @@ The dataset consists of GPU specifications, and the goal is to model the relatio
 ## Project Structure
 ```
 LR_Python/
-│── gpu_linear_regression.py   # Main Python script
-│── requirements.txt           # Required dependencies
-│── README.md                  # Project documentation
-│── data/                      # (Optional) dataset folder
+│── gpu_linear_regression.py     # Main Python script
+│── requirements.txt             # Required dependencies
+│── README.md                    # Project documentation
+|── Linear_Regression_Review.pdf # Report file reviewing the theoretical foundation for linear regression
+│── data/                        # (Optional) dataset folder
 ```
 
 ---
@@ -44,11 +45,6 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
-Run the pipeline:
-```bash
-python gpu_linear_regression.py
-```
-
-## ✨ Author
-- **Khang-Huynh Vuong** – Ho Chi Minh City University of Technology - Faculty of Computer Science and Engineering.  
+## Author
+- **Vuong Khang Huynh** – Ho Chi Minh City University of Technology - Faculty of Computer Science and Engineering.  
+- **Huu Loi Bui** - Ho Chi Minh City University of Technology - Faculty of Computer Science and Engineering.
