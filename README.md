@@ -58,7 +58,7 @@ However, Linear Regression can struggle when features are **highly correlated**.
 Ridge Regression extends Linear Regression by adding **L2 regularization**.
 
 $$
-\min_{\beta} ||y - X\beta||^2 + \lambda ||\beta||^2
+\min_{\beta} \|y - X\beta\|^2 + \lambda \|\beta\|^2
 $$
 
 The regularization term penalizes large coefficients and helps reduce instability caused by correlated features.
@@ -121,13 +121,12 @@ In many cases, **Random Forest performs best** because GPU hardware features oft
 
 ---
 
-# Project Structure
+## Project structure
 gpu-regression-project/
-│
 ├── All_GPUs.csv
 ├── gpu_regression.ipynb
 ├── README.md
-└── requirements.txt   
+└── requirements.txt 
 
 ---
 
