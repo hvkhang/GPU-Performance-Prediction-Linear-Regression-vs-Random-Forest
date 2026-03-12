@@ -36,13 +36,13 @@ Linear Regression serves as the **baseline model**.
 
 It assumes a linear relationship between the GPU hardware features and the target variable.
 
-\[
+$$
 \hat{y} = w^T x + b
-\]
+$$
 
 Where:
-- \(x\) is the feature vector
-- \(w\) are the learned coefficients
+- $x$ is the feature vector
+- $w$ are the learned coefficients
 
 Advantages:
 - Simple
@@ -57,9 +57,9 @@ However, Linear Regression can struggle when features are **highly correlated**.
 
 Ridge Regression extends Linear Regression by adding **L2 regularization**.
 
-\[
+$$
 \min_{\beta} ||y - X\beta||^2 + \lambda ||\beta||^2
-\]
+$$
 
 The regularization term penalizes large coefficients and helps reduce instability caused by correlated features.
 
@@ -76,9 +76,9 @@ Random Forest is a **tree-based ensemble model** that can capture nonlinear rela
 
 It works by training multiple decision trees and averaging their predictions.
 
-\[
+$$
 \hat{y} = \frac{1}{T}\sum_{t=1}^{T} f_t(x)
-\]
+$$
 
 Advantages:
 - Captures nonlinear feature interactions
@@ -95,17 +95,17 @@ Metrics used:
 
 ### Mean Squared Error (MSE)
 
-\[
+$$
 MSE = \frac{1}{n}\sum (y - \hat{y})^2
-\]
+$$
 
-### \(R^2\) Score
+### $R^2$ Score
 
-\[
+$$
 R^2 = 1 - \frac{SS_{res}}{SS_{tot}}
-\]
+$$
 
-Higher \(R^2\) and lower MSE indicate better model performance.
+Higher $R^2$ and lower MSE indicate better model performance.
 
 ---
 
