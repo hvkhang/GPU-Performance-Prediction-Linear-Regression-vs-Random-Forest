@@ -121,14 +121,15 @@ In many cases, **Random Forest performs best** because GPU hardware features oft
 
 ---
 
-# Project Structure
+## Project Structure
 
+```
 gpu-regression-project/
-|
-|-- All_GPUs.csv
-|-- gpu_regression.ipynb
-|-- README.md
-`-- requirements.txt
+├── All_GPUs.csv
+├── gpu_regression.ipynb
+├── README.md
+└── requirements.txt
+```
 
 ---
 
